@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Shop {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 40px;
+  padding: 40px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cart-container {
+  border: 1px solid green;
+  padding: 20px;
+  background-color: #ff99004d;
+}
+.cart-container h4 {
+  text-align: center;
+}
